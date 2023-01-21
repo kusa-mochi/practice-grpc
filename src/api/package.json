@@ -1,0 +1,19 @@
+{
+  "name": "hello",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-connect-web": "buf generate"
+  },
+  "author": "Mochi",
+  "license": "MIT",
+  "devDependencies": {
+    "@bufbuild/protoc-gen-connect-web": "^0.6.0",
+    "@bufbuild/protoc-gen-es": "^1.0.0"
+  },
+  "dependencies": {
+    "@bufbuild/connect-web": "^0.6.0",
+    "@bufbuild/protobuf": "^1.0.0"
+  }
+}
